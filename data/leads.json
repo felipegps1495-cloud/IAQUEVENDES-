@@ -1,0 +1,16 @@
+[
+  {
+    "id": "lead-demo-1",
+    "name": "Marina Souza",
+    "phone": "",
+    "productInterest": "Curso IA para Vendas de Afiliados",
+    "interestLevel": "quente",
+    "status": "cta_enviado",
+    "createdAt": "2026-01-15T13:00:00.000Z",
+    "updatedAt": "2026-01-15T13:10:00.000Z",
+    "lastInteractionAt": "2026-01-15T13:10:00.000Z",
+    "messagesCount": 6,
+    "ctaSent": true,
+    "clickedProductId": "prod-curso-ia-vendas"
+  }
+]
