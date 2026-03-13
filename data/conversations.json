@@ -1,0 +1,22 @@
+[
+  {
+    "leadId": "lead-demo-1",
+    "messages": [
+      {
+        "role": "assistant",
+        "content": "Olá! Eu sou o assistente da oferta. Posso te ajudar a entender se esse curso faz sentido para você.",
+        "timestamp": "2026-01-15T13:00:10.000Z"
+      },
+      {
+        "role": "lead",
+        "content": "Quero melhorar minhas vendas como afiliada.",
+        "timestamp": "2026-01-15T13:01:30.000Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Perfeito, esse curso ajuda exatamente nisso com roteiro de atendimento e qualificação.",
+        "timestamp": "2026-01-15T13:02:00.000Z"
+      }
+    ]
+  }
+]

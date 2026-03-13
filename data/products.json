@@ -1,0 +1,33 @@
+[
+  {
+    "id": "prod-curso-ia-vendas",
+    "name": "Curso IA para Vendas de Afiliados",
+    "description": "Treinamento online para montar atendimento automático com IA e aumentar conversões em ofertas de afiliados.",
+    "benefits": [
+      "Roteiros prontos para atendimento",
+      "Estratégias de qualificação de leads",
+      "Método para enviar oferta no momento certo"
+    ],
+    "faq": [
+      {
+        "question": "Para quem é esse curso?",
+        "answer": "Para afiliados iniciantes e intermediários que querem automatizar atendimento e vendas online."
+      },
+      {
+        "question": "Preciso saber programar?",
+        "answer": "Não. O curso foi pensado para pessoas sem conhecimento técnico avançado."
+      }
+    ],
+    "objections": [
+      {
+        "objection": "Estou sem tempo.",
+        "response": "O método é dividido em passos curtos para aplicação progressiva na rotina."
+      },
+      {
+        "objection": "Tenho medo de não funcionar para mim.",
+        "response": "Você pode começar com uma automação simples e ajustar conforme o perfil dos seus leads."
+      }
+    ],
+    "defaultAffiliateLink": "https://seu-link-afiliado.com/produto-exemplo"
+  }
+]

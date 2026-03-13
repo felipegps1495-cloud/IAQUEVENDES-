@@ -1,0 +1,16 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; background: #f4f7fb; color: #1f2937; }
+.layout { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 16px; }
+.card { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+.chat { height: 320px; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px; margin: 12px 0; }
+.msg { margin: 8px 0; padding: 8px 10px; border-radius: 8px; max-width: 85%; }
+.msg.lead { background: #dbeafe; margin-left: auto; }
+.msg.assistant { background: #e5e7eb; }
+.start-form, .chat-form { display: flex; gap: 8px; margin-top: 8px; }
+input { flex: 1; padding: 10px; border: 1px solid #d1d5db; border-radius: 8px; }
+button { border: none; background: #2563eb; color: #fff; border-radius: 8px; padding: 10px 12px; cursor: pointer; }
+#leads, #conversations { max-height: 180px; overflow-y: auto; border: 1px solid #e5e7eb; border-radius: 8px; padding: 8px; }
+.item { border-bottom: 1px solid #f3f4f6; padding: 6px 0; font-size: 14px; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 10px; }
+.stat { background: #eff6ff; border-radius: 8px; padding: 10px; font-size: 14px; }
+@media (max-width: 960px) { .layout { grid-template-columns: 1fr; } }

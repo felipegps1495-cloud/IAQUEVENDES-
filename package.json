@@ -1,0 +1,14 @@
+{
+  "name": "afiliado-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto full stack de atendimento automático para vendas com link de afiliado",
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

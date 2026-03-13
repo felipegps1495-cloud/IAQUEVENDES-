@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>afiliado-ia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="card">
+        <h1>Chat Web · afiliado-ia</h1>
+        <div class="start-form">
+          <input id="name" placeholder="Seu nome" />
+          <input id="phone" placeholder="Telefone (opcional)" />
+          <button id="startBtn">Iniciar atendimento</button>
+        </div>
+        <div id="chat" class="chat"></div>
+        <form id="chatForm" class="chat-form">
+          <input id="messageInput" placeholder="Digite sua mensagem" required />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section class="card">
+        <h2>Painel Administrativo</h2>
+        <div class="stats" id="stats"></div>
+        <h3>Leads</h3>
+        <div id="leads"></div>
+        <h3>Histórico de Conversas</h3>
+        <div id="conversations"></div>
+        <button id="exportBtn">Exportar Leads</button>
+      </section>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
